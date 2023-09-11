@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de horas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cálculo de Horas Trabalhadas</h1>
+    </header>
+        <p>Abaixo temos um sistema que calcula as horas trabalhadas no dia com base nos horários de batidas de ponto informados</p>
+    <section id="primeiro-horario">
+        <input type="time" id="p1">
+        <input type="time" id="p2">
+        <input type="button" value="calcular" id="somar1" onclick="almoço()">
+        <p id="int1">Tempo de trabalho até o Almoço</p>
+    </section>
+    <section id="segundo-horario">
+        <input type="time" id="p3">
+        <input type="time" id="p4">
+        <input type="button" value="calcular" id="somar2" onclick="saida()">
+        <p id="int2">Tempo de trabalho até a Saída</p>
+    </section>
+    <section id="tempo-trabalho">
+        <input type="button" value="somar" id="res" onclick="horarioAlmoco()">
+        <p id="res">Tempo total de trabalho</p>
+    </section>
+    <footer>
+        <p>@https.wesz</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

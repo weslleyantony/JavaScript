@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+    background: linear-gradient(to right, rgb(96, 235, 235), rgb(250, 250, 133));
+}
+
+h1 {
+    text-align:center;
+    color:rgb(0, 0, 150);
+    font: bold 42px cursive;
+}
+
+p {
+    font:  normal 18px Arial;
+    color: rgb(76, 0, 148);
+    text-align: justify;
+}
+
+h2 {
+    font: bold 30px Arial;
+    color: rgb(131, 15, 15);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    font: normal 22px Arial;
+    color: rgb(150, 8, 107);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

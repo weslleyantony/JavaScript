@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+    .quem {
+        color: black;
+        font-size: 30px;
+        background-color: white;
+    }
+
+a {
+    text-decoration: none;
+}
+
+.box {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background: #025016;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottons-container {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 150px;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-weight: 790;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+}

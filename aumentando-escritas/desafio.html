@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio em JavaScript</title>
+    <link rel="stylesheet" href="desafio.css">
+    <link rel="shortcut icon" href="desafio-icon.jpeg" type="image/x-icon">
+</head>
+<body>
+    <h1>Testando minhas habilidades em HTML, CSS e JS</h1>
+
+    <p>Aqui irei tentar incluir o máximo de coisas que aprendi no curso de HTML, CSS e até o momento em JS, testando o quando aprendi de cada um deles!</p>
+
+    <p>Veremos então um pouco de alguns jogos que gostei e em que plataforma joguei</p>
+
+        <h2>PC</h2>
+            <ul>
+                <a href="https://pt.wikipedia.org/wiki/It_Takes_Two_(jogo_eletr%C3%B4nico)" target="_blank"><li>It Takes Two</li></a>
+                <a href="https://pt.wikipedia.org/wiki/A_Way_Out" target="_blank"><li>A Way Out</li></a>
+                <a href="https://pt.wikipedia.org/wiki/Minecraft" target="_blank"><li>Minecraft</li></a>
+                <a href="https://pt.wikipedia.org/wiki/Untitled_Goose_Game" target="_blank"><li>Untitled Goose Game</li></a>
+            </ul>
+
+        <h2>PlayStation 3</h2>
+            <ul>
+                <a href="https://pt.wikipedia.org/wiki/God_of_War_III" target="_blank"><li>God of War III</li></a>
+                <a href="https://pt.wikipedia.org/wiki/Uncharted:_Drake%27s_Fortune" target="_blank"><li>Uncharted: Drake's Fourtune</li></a>
+            </ul>
+
+        <h2>PlayStation 2</h2>
+            <ul>
+                <a href="https://pt.wikipedia.org/wiki/Super_Mario_World" target="_blank"><li>Super Mario World</li></a>
+                <a href="https://pt.wikipedia.org/wiki/Mortal_Kombat:_Shaolin_Monks" target="_blank"><li>Mortal Kombat Shaolin Monks</li></a>
+            </ul>
+    
+    <script>
+
+/* --- CRIANDO AS VARIÁVEIS QUE PUXARÃO OS TERMOS DO HTML PARA O JAVASCRIPT --- */
+
+        var gm1 = document.getElementsByTagName ('li')[0]
+        var gm2 = document.getElementsByTagName ('li')[1]
+        var gm3 = document.getElementsByTagName ('li')[2]
+        var gm4 = document.getElementsByTagName ('li')[3]
+        var gm5 = document.getElementsByTagName ('li')[4]
+        var gm6 = document.getElementsByTagName ('li')[5]
+        var gm7 = document.getElementsByTagName ('li')[6]
+        var gm8 = document.getElementsByTagName ('li')[7]
+
+/* --- CRIANDO OS EVENTOS LISTENERS PARA DETECTAR A ENTRADA E SAÍDA DO MOUSE --- */
+
+        gm1.addEventListener('mouseenter', entrargm1)
+        gm1.addEventListener('mouseout', sairgm1)
+        gm2.addEventListener('mouseenter', entrargm2)
+        gm2.addEventListener('mouseout', sairgm2)
+        gm3.addEventListener('mouseenter', entrargm3)
+        gm3.addEventListener('mouseout', sairgm3)
+        gm4.addEventListener('mouseenter', entrargm4)
+        gm4.addEventListener('mouseout', sairgm4)
+        gm5.addEventListener('mouseenter', entrargm5)
+        gm5.addEventListener('mouseout', sairgm5)
+        gm6.addEventListener('mouseenter', entrargm6)
+        gm6.addEventListener('mouseout', sairgm6)
+        gm7.addEventListener('mouseenter', entrargm7)
+        gm7.addEventListener('mouseout', sairgm7)
+        gm8.addEventListener('mouseenter', entrargm8)
+        gm8.addEventListener('mouseout', sairgm8)
+
+/* ------------- FAZENDO AS FUNÇÕES DE ENTRADA DO MOUSE NAS LI's ------------- */
+
+        function entrargm1(){
+            gm1.style.fontSize = '40px'
+            gm1.style.color = 'rgb(248, 32, 255)'
+            gm1.style.marginTop = '12px'
+            gm1.style.marginBottom = '12px' 
+        }
+        function entrargm2(){
+            gm2.style.fontSize = '40px'
+            gm2.style.color = 'rgb(248, 32, 255)'
+            gm2.style.marginTop = '12px'
+            gm2.style.marginBottom = '12px'
+        }
+        function entrargm3(){
+            gm3.style.fontSize = '40px'
+            gm3.style.color = 'rgb(248, 32, 255)'
+            gm3.style.marginTop = '12px'
+            gm3.style.marginBottom = '12px'
+        }
+        function entrargm4(){
+            gm4.style.fontSize = '40px'
+            gm4.style.color = 'rgb(248, 32, 255)'
+            gm4.style.marginTop = '12px'
+            gm4.style.marginBottom = '12px'
+        }
+        function entrargm5(){
+            gm5.style.fontSize = '40px'
+            gm5.style.color = 'rgb(248, 32, 255)'
+            gm5.style.marginTop = '12px'
+            gm5.style.marginBottom = '12px'
+        }
+        function entrargm6(){
+            gm6.style.fontSize = '40px'
+            gm6.style.color = 'rgb(248, 32, 255)'
+            gm6.style.marginTop = '12px'
+            gm6.style.marginBottom = '12px'
+        }
+        function entrargm7(){
+            gm7.style.fontSize = '40px'
+            gm7.style.color = 'rgb(248, 32, 255)'
+            gm7.style.marginTop = '12px'
+            gm7.style.marginBottom = '12px'
+        }
+        function entrargm8(){
+            gm8.style.fontSize = '40px'
+            gm8.style.color = 'rgb(248, 32, 255)'
+            gm8.style.marginTop = '12px'
+            gm8.style.marginBottom = '12px'
+        }
+
+/* ------------- FAZENDO AS FUNÇÕES DE SAÍDA DO MOUSE NAS LI's ------------- */
+
+        function sairgm1(){
+            gm1.style = ('gm1')
+        }
+        function sairgm2(){
+            gm2.style = ('gm2')
+        }
+        function sairgm3(){
+            gm3.style = ('gm3')
+        }
+        function sairgm4(){
+            gm4.style = ('gm4')
+        }
+        function sairgm5(){
+            gm5.style = ('gm5')
+        }
+        function sairgm6(){
+            gm6.style = ('gm6')
+        }
+        function sairgm7(){
+            gm7.style = ('gm7')
+        }
+        function sairgm8(){
+            gm8.style = ('gm8')
+        }
+
+/* ------------ E POR AQUI SE ENCERRA O CÓDIGO FEITO EM JAVASCRIPT ------------ */
+
+    </script>
+
+</body>
+</html>
